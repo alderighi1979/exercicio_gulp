@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.scss","F:/EBAC/Full_Stack_Python/Front_End/14%20-%20GULP/Exercicio_gulp/source/styles/variaveis.scss"],"names":[],"mappings":"AAEA;EACI,OCFY","sourcesContent":["@use 'variaveis';\r\n\r\nbody {\r\n    color: variaveis.$corSecundaria;\r\n}","$corPrincipal: green;\r\n$corSecundaria: blue;\r\n$corTexto: rgb(165, 17, 17);"],"file":"main.css"}

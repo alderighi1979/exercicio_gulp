@@ -1,0 +1,1 @@
+function somar(o,n){return o+n}console.log(somar(2,3)),console.log(somar(5,7));

@@ -5,7 +5,7 @@ const imagemin = require('gulp-imagemin');
 const uglify = require('gulp-uglify');
 
 function compilarSass () {
-    return gulp.src('./source/styles/main.scss')
+    return gulp.src('./source/styles/*.scss')
         .pipe(sourcemaps.init())
         .pipe(sass())
         .pipe(sourcemaps.write('.'))
